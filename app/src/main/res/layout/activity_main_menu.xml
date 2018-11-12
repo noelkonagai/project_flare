@@ -16,6 +16,7 @@
         android:layout_marginTop="120dp"
         android:background="@drawable/btn_style"
         android:text="Contacts"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
