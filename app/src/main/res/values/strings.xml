@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project Flare</string>
+    <string name="phone_contact">Phone number</string>
+    <string name="contact_name">Name</string>
+    <string name="title_activity_verification_screen">VerificationScreen</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
