@@ -29,6 +29,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/btn_style"
         android:text="Calibration"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contacts" />
 
@@ -41,6 +42,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/btn_style"
         android:text="Test"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calibration" />
 
@@ -53,6 +55,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/btn_style"
         android:text="LOG OUT"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -53,7 +53,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Phone Number1"
+                android:hint="Email1"
                 android:id="@+id/ed_phonenumber1"
                 android:backgroundTint="#FFFFFF"
                 android:inputType="textPassword"
@@ -61,45 +61,6 @@
                 android:singleLine="true"
                 />
         </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:hintTextAppearance="@style/MyAppearance"
-            android:textColorHint="#eee"
-            android:layout_marginTop="@dimen/_8sdp"
-            >
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Name2"
-                android:id="@+id/ed_name2"
-                android:backgroundTint="#FFFFFF"
-                android:inputType="textPassword"
-                android:imeOptions="actionDone"
-                android:singleLine="true"
-                />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:hintTextAppearance="@style/MyAppearance"
-            android:textColorHint="#eee"
-            android:layout_marginTop="@dimen/_8sdp"
-            >
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Phone Number2"
-                android:id="@+id/ed_phonenumber2"
-                android:backgroundTint="#FFFFFF"
-                android:inputType="textPassword"
-                android:imeOptions="actionDone"
-                android:singleLine="true"
-                />
-        </android.support.design.widget.TextInputLayout>
-
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
