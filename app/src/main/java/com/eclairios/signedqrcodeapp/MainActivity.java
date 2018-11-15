@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     int Coarse_request_code=203;
     int fine_request_code=204;
     int read_request_code=205;
+    private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 1;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
