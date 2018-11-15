@@ -48,7 +48,7 @@ public class DeviceListActivity extends Activity {
         //***************
         checkBTState();
 
-        textView1 = (TextView) findViewById(R.id.connecting);
+        textView1 = findViewById(R.id.connecting);
         textView1.setTextSize(40);
         textView1.setText(" ");
 
@@ -56,7 +56,7 @@ public class DeviceListActivity extends Activity {
         mPairedDevicesArrayAdapter = new ArrayAdapter<String>(this, R.layout.device_name);
 
         // Find and set up the ListView for paired devices
-        ListView pairedListView = (ListView) findViewById(R.id.paired_devices);
+        ListView pairedListView = findViewById(R.id.paired_devices);
         pairedListView.setAdapter(mPairedDevicesArrayAdapter);
         pairedListView.setOnItemClickListener(mDeviceClickListener);
 

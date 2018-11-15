@@ -114,10 +114,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initialization() {
-        tv_title = (TextView) findViewById(R.id.tv_title);
-        ed_username = (EditText) findViewById(R.id.ed_username);
-        ed_password = (EditText) findViewById(R.id.ed_password);
-        btn_login = (Button) findViewById(R.id.btn_login);
+        tv_title = findViewById(R.id.tv_title);
+        ed_username = findViewById(R.id.ed_username);
+        ed_password = findViewById(R.id.ed_password);
+        btn_login = findViewById(R.id.btn_login);
 
         AssetManager am = getApplicationContext().getAssets();
         progressDialog = new ProgressDialog(MainActivity.this);

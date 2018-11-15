@@ -58,10 +58,10 @@ public class AddContact2 extends AppCompatActivity {
     }
 
     private void initialization() {
-        tv_subtitle_2 = (TextView) findViewById(R.id.tv_subtitle_2);
-        ed_name_2 = (EditText) findViewById(R.id.ed_name_2);
-        ed_phonenumber = (EditText) findViewById(R.id.ed_phonenumber);
-        btn_ok = (Button) findViewById(R.id.btn_ok);
+        tv_subtitle_2 = findViewById(R.id.tv_subtitle_2);
+        ed_name_2 = findViewById(R.id.ed_name_2);
+        ed_phonenumber = findViewById(R.id.ed_phonenumber);
+        btn_ok = findViewById(R.id.btn_ok);
 
         AssetManager am = getApplicationContext().getAssets();
 //        Typeface custom_font = Typeface.createFromAsset(am, "fonts/PlayfairDisplay-BlackItalic.otf");

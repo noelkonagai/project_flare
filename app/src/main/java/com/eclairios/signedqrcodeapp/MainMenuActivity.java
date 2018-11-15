@@ -111,10 +111,10 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     private void initialization() {
-        contacts = (Button) findViewById(R.id.contacts);
-        calibration = (Button) findViewById(R.id.calibration);
-        test = (Button) findViewById(R.id.test);
-        log_out = (Button) findViewById(R.id.log_out);
+        contacts = findViewById(R.id.contacts);
+        calibration = findViewById(R.id.calibration);
+        test = findViewById(R.id.test);
+        log_out = findViewById(R.id.log_out);
         AssetManager am = getApplicationContext().getAssets();
         Typeface custom_font = Typeface.createFromAsset(am, "fonts/PlayfairDisplay-BlackItalic.otf");
 

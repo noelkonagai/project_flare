@@ -44,7 +44,7 @@ public class BluetoothPairingActivity extends Activity {
         setContentView(R.layout.activity_bluetooth_pairing);
 
         //Link the buttons and textViews to respective views
-        btnOK = (Button) findViewById(R.id.buttonOK);
+        btnOK = findViewById(R.id.buttonOK);
 
 
         bluetoothIn = new Handler() {

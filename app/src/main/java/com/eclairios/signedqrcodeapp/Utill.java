@@ -39,12 +39,9 @@ public class Utill {
     public static boolean verifyConection(final Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         // test for connection
-        if (cm.getActiveNetworkInfo() != null
+        return cm.getActiveNetworkInfo() != null
                 && cm.getActiveNetworkInfo().isAvailable()
-                && cm.getActiveNetworkInfo().isConnected()) {
-            return true;
-        }else
-            return false;
+                && cm.getActiveNetworkInfo().isConnected();
 
     }
 }

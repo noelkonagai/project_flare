@@ -66,9 +66,9 @@ public class AddContact extends AppCompatActivity {
     }
 
     private void initialization() {
-        btn_ok = (Button) findViewById(R.id.btn_ok);
-        btn_add = (Button) findViewById(R.id.btn_add);
-        ed_name = (EditText) findViewById(R.id.name);
-        ed_phone = (EditText) findViewById(R.id.phone);
+        btn_ok = findViewById(R.id.btn_ok);
+        btn_add = findViewById(R.id.btn_add);
+        ed_name = findViewById(R.id.name);
+        ed_phone = findViewById(R.id.phone);
     }
 }
