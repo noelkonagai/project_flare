@@ -14,6 +14,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.arduinosensors.R;
+
 public class MainMenuActivity extends AppCompatActivity {
     Button contacts, calibration, test, log_out;
 

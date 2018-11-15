@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.arduinosensors.R;
+
 public class AddContact2 extends AppCompatActivity {
     TextView tv_subtitle_2;
     EditText ed_name_2, ed_phonenumber;

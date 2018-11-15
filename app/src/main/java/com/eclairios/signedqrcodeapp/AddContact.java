@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.arduinosensors.R;
+
 public class AddContact extends AppCompatActivity {
 
     EditText ed_name, ed_phone;

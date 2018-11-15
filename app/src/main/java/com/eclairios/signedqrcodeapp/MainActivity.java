@@ -22,13 +22,14 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
-import android.test.mock.MockPackageManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.arduinosensors.R;
 
 import org.ankit.gpslibrary.MyTracker;
 import org.json.JSONException;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        InsertDataToDataBase();//Inserting Local Data to Server
+//        InsertDataToDataBase();//Inserting Local Data to Server
         initialization();//here we are contecting xml Views object with the java class
         RunTimePermissions();//Taking Runtime Permission
 
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //when internet is connected
                 if (Utill.verifyConection(MainActivity.this)) {
-                    Intent intent = new Intent(MainActivity.this, AddContact.class);
+                    Intent intent = new Intent(MainActivity.this, DeviceListActivity.class);
                     //when there is no internet connection
                     startActivity(intent);
                 } else {
